@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+  <name>Data Adapter SQLite</name>
+  <driver>org.sqlite.JDBC</driver>
+  <username/>
+  <password/>
+  <url>jdbc:sqlite:/c:\Users\artem\JaspersoftWorkspace\MyReports\CurrencyChartFXMaven.db</url>
+  <database/>
+  <savePassword>true</savePassword>
+  <serverAddress/>
+  <readOnly>true</readOnly>
+</jdbcDataAdapter>

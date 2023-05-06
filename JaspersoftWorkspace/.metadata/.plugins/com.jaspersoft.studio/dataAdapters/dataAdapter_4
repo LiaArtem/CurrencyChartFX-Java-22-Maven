@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+  <name>Data Adapter PostgreSQL</name>
+  <driver>org.postgresql.Driver</driver>
+  <username>testdb</username>
+  <password>!Aa112233</password>
+  <url>jdbc:postgresql://localhost:5432/testdb</url>
+  <database/>
+  <savePassword>true</savePassword>
+  <serverAddress/>
+</jdbcDataAdapter>

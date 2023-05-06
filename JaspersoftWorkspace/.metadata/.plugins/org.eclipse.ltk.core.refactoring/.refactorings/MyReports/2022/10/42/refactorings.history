@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MyReports/CurrencyChartFXMavenReportMongo.jrxml&apos; to &apos;CurrencyChartFXMavenReportMongoDB.jrxml&apos;" description="Rename resource &apos;CurrencyChartFXMavenReportMongo.jrxml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="CurrencyChartFXMavenReportMongo.jrxml" name="CurrencyChartFXMavenReportMongoDB.jrxml" stamp="1665863046983" updateReferences="true"/>
+</session>

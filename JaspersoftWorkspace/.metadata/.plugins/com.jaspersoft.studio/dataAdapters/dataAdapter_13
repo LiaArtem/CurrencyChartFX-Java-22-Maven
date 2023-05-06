@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+  <name>Data Adapter MariaDB</name>
+  <driver>org.mariadb.jdbc.Driver</driver>
+  <username>test_user</username>
+  <password>!Aa112233</password>
+  <url>jdbc:mariadb://localhost:3307/test_schemas</url>
+  <database/>
+  <savePassword>true</savePassword>
+  <serverAddress/>
+</jdbcDataAdapter>

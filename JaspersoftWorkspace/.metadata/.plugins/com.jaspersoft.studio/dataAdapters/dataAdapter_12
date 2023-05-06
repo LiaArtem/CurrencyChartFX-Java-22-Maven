@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><MongoDbDataAdapterImpl class="com.jaspersoft.mongodb.adapter.MongoDbDataAdapterImpl">
+  <name>Data Adapter MongoDB 1</name>
+  <mongoURI>mongodb://localhost:27017/testDB?authMechanism=SCRAM-SHA-1&amp;authSource=admin</mongoURI>
+  <username>root</username>
+  <password>!Aa112233</password>
+</MongoDbDataAdapterImpl>

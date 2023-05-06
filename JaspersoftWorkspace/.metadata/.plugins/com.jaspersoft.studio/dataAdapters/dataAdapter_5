@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+  <name>Data Adapter Oracle</name>
+  <classpath>C:\Users\artem\JaspersoftWorkspace\MyReports\ojdbc11.jar</classpath>
+  <driver>oracle.jdbc.driver.OracleDriver</driver>
+  <username>TEST_USER</username>
+  <password>!Aa112233</password>
+  <url>jdbc:oracle:thin:@localhost:1521:FREE</url>
+  <database/>
+  <savePassword>true</savePassword>
+  <serverAddress/>
+</jdbcDataAdapter>

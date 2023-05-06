@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+  <name>Data Adapter AuroraMySQL</name>
+  <classpath>C:\Users\artem\JaspersoftWorkspace\MyReports\mssql-jdbc-12.2.0.jre11.jar</classpath>
+  <driver>com.mysql.jdbc.Driver</driver>
+  <username>test_user</username>
+  <password>!Aa112233</password>
+  <url>jdbc:mysql://auroramysqldb-instance-1.c5bnmatchwcd.us-east-1.rds.amazonaws.com:3308/testdb</url>
+  <database/>
+  <savePassword>true</savePassword>
+  <serverAddress/>
+  <readOnly>true</readOnly>
+</jdbcDataAdapter>

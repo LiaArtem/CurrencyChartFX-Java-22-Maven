@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+  <name>Data Adapter IBMInformix</name>
+  <classpath>C:\Users\artem\JaspersoftWorkspace\MyReports\informix-jdbc-complete-4.50.4.1.jar</classpath>
+  <driver>com.informix.jdbc.IfxDriver</driver>
+  <username>informix</username>
+  <password>!Aa112233</password>
+  <url>jdbc:informix-sqli://localhost:9088/sample:INFORMIXSERVER=informix;</url>
+  <database/>
+  <savePassword>true</savePassword>
+  <serverAddress/>
+</jdbcDataAdapter>

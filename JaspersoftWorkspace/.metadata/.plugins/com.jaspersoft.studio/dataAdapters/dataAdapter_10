@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+  <name>Data Adapter Firebird</name>
+  <classpath>C:\Users\artem\JaspersoftWorkspace\MyReports\jaybird-full-4.0.6.java11.jar</classpath>
+  <driver>org.firebirdsql.jdbc.FBDriver</driver>
+  <username>SYSDBA</username>
+  <password>!Aa112233</password>
+  <url>jdbc:firebirdsql://localhost:3050//firebird/data/testdb.fdb?encoding=ISO8859_1</url>
+  <database/>
+  <savePassword>true</savePassword>
+  <serverAddress/>
+</jdbcDataAdapter>

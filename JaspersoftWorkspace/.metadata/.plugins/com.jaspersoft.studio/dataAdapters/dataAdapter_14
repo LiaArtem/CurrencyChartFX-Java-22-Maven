@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+  <name>Data Adapter AuroraPostgreSQL</name>
+  <driver>org.postgresql.Driver</driver>
+  <username>testdb</username>
+  <password>!Aa112233</password>
+  <url>jdbc:postgresql://aurorapostgresqldb-instance-1.c5bnmatchwcd.us-east-1.rds.amazonaws.com:5433/testdb</url>
+  <database/>
+  <savePassword>true</savePassword>
+  <serverAddress/>
+</jdbcDataAdapter>

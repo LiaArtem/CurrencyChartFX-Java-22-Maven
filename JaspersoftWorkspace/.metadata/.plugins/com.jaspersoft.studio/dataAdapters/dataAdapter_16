@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+  <name>Data Adapter MongoDB</name>
+  <classpath>C:\Users\artem\JaspersoftWorkspace\MyReports\mongodb_unityjdbc_free.jar</classpath>
+  <driver>mongodb.jdbc.MongoDriver</driver>
+  <username>root</username>
+  <password>!Aa112233</password>
+  <url>jdbc:mongodb://localhost:27017/testDB?authMechanism=SCRAM-SHA-1&amp;authSource=admin</url>
+  <database/>
+  <savePassword>true</savePassword>
+  <serverAddress/>
+</jdbcDataAdapter>

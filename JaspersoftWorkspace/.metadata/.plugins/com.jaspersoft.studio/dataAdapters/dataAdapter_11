@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+  <name>Data Adapter MSSQL</name>
+  <classpath>C:\Users\artem\JaspersoftWorkspace\MyReports\mssql-jdbc-12.2.0.jre11.jar</classpath>
+  <driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver>
+  <username>sa</username>
+  <password>!Aa112233</password>
+  <url>jdbc:sqlserver://localhost;databaseName=DatabaseTestDBDocker;encrypt=false;</url>
+  <database/>
+  <savePassword>true</savePassword>
+  <serverAddress/>
+</jdbcDataAdapter>

@@ -1,0 +1,8 @@
+/javafx-sdk/
+/out/
+/report_export/
+/CurrencyChartFXMaven.db
+/mssql-jdbc_auth-*.dll
+
+# Project exclude paths
+/target/

@@ -1,0 +1,1 @@
+md C:\Users\artem\.DbSchema\logs

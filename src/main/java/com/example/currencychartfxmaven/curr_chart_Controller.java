@@ -124,7 +124,7 @@ public class curr_chart_Controller {
         // Создание базы данных SQLite и создание таблицы для добавления данных
         CreateTableSQLite();
 
-        // Заполенение и прорисовка графика
+        // Заполнение и прорисовка графика
         Calc_range();
     }
 
@@ -297,7 +297,7 @@ public class curr_chart_Controller {
         Calendar now = Calendar.getInstance();   // Gets the current date and time
         int year = now.get(Calendar.YEAR);       // The current year        
         int year_now = year;
-        // расчитываем диапазон
+        // Расчитываем диапазон
         int mYear = (int) Main.getString_Double(minus_year.getText()) + 1;
         int m_is_average_value_curr;
         int m_is_visible_points;
@@ -762,7 +762,7 @@ public class curr_chart_Controller {
                 if (ii > 0) {
                     chart.getData().add(series1);
                 }
-                // переинициализация
+                // повторная инициализация
                 series1 = new XYChart.Series<>();
                 series1.setName(Integer.toString(m_year_temp));
                 m_year_base = m_year_temp;
@@ -773,7 +773,7 @@ public class curr_chart_Controller {
                 int m_months = Integer.parseInt(mArray[0][ii].substring(4, 6));
                 int m_year = Integer.parseInt(mArray[0][ii].substring(0, 4));
 
-                // убираем высокосный, чтобы не было ошибок
+                // убираем високосный, чтобы не было ошибок
                 if (m_months == 2 && m_day == 29) {
                     m_day = 28;
                 }
@@ -793,7 +793,7 @@ public class curr_chart_Controller {
                     series1.getData().add(new XYChart.Data<>(ValueDate, DoubleData));
                 }
 
-                // поиск мин. и макс. значения
+                // Поиск мин. и макс. значения
                 double m_value_data = DoubleData;
                 if (is_average_value_curr == 1) m_value_data = DoubleData / m_average_value;
                 if (m_base_init == 0) {
@@ -880,7 +880,7 @@ public class curr_chart_Controller {
             String mPath = tec_kat + File.separatorChar + "Settings.json";
             File file = new File(mPath);
             if (!file.exists()) {
-                IsRezult = false; // не успешно
+                IsRezult = false; // неуспешно
                 System.out.println(mPath + " Тип " + typeDB + " Файл не найден, Запись в DB невозможна");
                 return;
             }
@@ -928,7 +928,7 @@ public class curr_chart_Controller {
                                     }
                                 }
                             }
-                            else { // те которые пропускем, все равно проходим
+                            else { // те которые пропускаем, все равно проходим
                                 while (reader.hasNext()) { reader.skipValue(); }
                             }
                             reader.endObject();
@@ -951,7 +951,7 @@ public class curr_chart_Controller {
 
                 } catch (IOException e) {
                     System.out.println(mPath + " " + e);
-                    IsRezult = false; // не успешно
+                    IsRezult = false; // неуспешно
                 }
             }
         }
@@ -1040,7 +1040,7 @@ public class curr_chart_Controller {
                            a.AVG_RATE as AVG_RATE
                     FROM CURS k
                     INNER JOIN CURS_AVG a ON a.PART_DATE = SUBSTR(k.CURS_DATE, 6, 5) AND a.CURR_CODE = k.CURR_CODE
-                    WHERE SUBSTR(k.CURS_DATE, 1, 4) IN (SELECT SUBSTR(MAX(date(kk.CURS_DATE)),1,4) FROM CURS kk) AND a.AVG_RATE <= 100
+                    WHERE SUBSTR(k.CURS_DATE, 1, 4) IN (SELECT SUBSTR(MAX(date(kk.CURS_DATE)),1,4) FROM CURS kk)
                     ORDER BY 1""");
         }
         catch(SQLException e)
@@ -1646,14 +1646,14 @@ public class curr_chart_Controller {
             Class.forName("mongodb.jdbc.MongoDriver");
             connection = DriverManager.getConnection(ConnDB.JDBCConnection, ConnDB.DBUser, ConnDB.DBPassword);
         }
-        catch(SQLException e)
-        {
-            connection = null;
-            System.out.println("ConnectionMongoDB: " + e.getMessage());
-        } catch (ClassNotFoundException e) {
+        catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
-        return connection;
+        catch(Exception e) {
+            connection = null;
+            System.out.println("ConnectionMongoDB: " + e.getMessage());
+        }
+            return connection;
     }
 
     // Добавление данных в базу MongoDB
@@ -1712,7 +1712,12 @@ public class curr_chart_Controller {
         }
         catch(SQLException e)
         {
-            Main.MessageBoxError(e.getMessage(), "Ошибка AddTableMongoDB");
+            if (e.getMessage().contains("com.mongodb.MongoTimeoutException:"))
+            {
+                System.out.println("ConnectionMongoDB: " + e.getMessage());
+            } else {
+                Main.MessageBoxError(e.getMessage(), "Ошибка AddTableMongoDB");
+            }
         }
         finally
         {
@@ -1941,12 +1946,12 @@ public class curr_chart_Controller {
             Class.forName("com.wisecoders.dbschema.cassandra.JdbcDriver");
             connection = DriverManager.getConnection(ConnDB.JDBCConnection, ConnDB.DBUser, ConnDB.DBPassword);
         }
-        catch(SQLException e)
-        {
+        catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        catch(Exception e) {
             connection = null;
             System.out.println("ConnectionCassandra: " + e.getMessage());
-        } catch (ClassNotFoundException e) {
-            throw new RuntimeException(e);
         }
         return connection;
     }
@@ -1959,11 +1964,6 @@ public class curr_chart_Controller {
             // create a database connection
             connection = ConnectionCassandra();
             if (connection == null) { return; }
-
-            ConnectionFileDataDB ConnDB = new ConnectionFileDataDB("Cassandra");
-
-            Statement statement = connection.createStatement();
-            //statement.setQueryTimeout(30);  // set timeout to 30 sec. не поддерживается
 
             for (int iii = 0; iii < mArray[0].length; iii++) {
                 String INSERT_SQL = "SELECT COUNT(*) AS KOL FROM curs WHERE curr_code = '" + mCurrCode + "' AND curs_date = '"
@@ -1984,18 +1984,15 @@ public class curr_chart_Controller {
                             + "'" + mArray[0][iii].substring(0, 4) + "-" + mArray[0][iii].substring(4, 6) + "-" + mArray[0][iii].substring(6, 8) + "',"
                             + "1,"
                             + mArray[1][iii] + ");";
-                    ps = connection.prepareStatement(INSERT_SQL);
-                    ps.executeUpdate();
-                    ps.close();
                 } else {
                     INSERT_SQL = "UPDATE curs SET forc = 1, rate = " + mArray[1][iii] + " WHERE curr_code = '" + mCurrCode + "' AND curs_date = '"
                             + mArray[0][iii].substring(0, 4) + "-" +
                             mArray[0][iii].substring(4, 6) + "-" +
                             mArray[0][iii].substring(6, 8) + "'";
-                    ps = connection.prepareStatement(INSERT_SQL);
-                    ps.executeUpdate();
-                    ps.close();
                 }
+                ps = connection.prepareStatement(INSERT_SQL);
+                ps.executeUpdate();
+                ps.close();
             }
         }
         catch(SQLException e)

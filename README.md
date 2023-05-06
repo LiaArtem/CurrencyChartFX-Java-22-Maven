@@ -12,6 +12,9 @@ Maven JavaFX IntelliJ IDEA проект - Java 20, JavaFX, Maven, JasperReports,
 Запуск проекту для Windows (bat файл):
 ..\jdk-20\bin\java" -jar --module-path "%cd%"\javafx-sdk\lib --add-modules=javafx.base,javafx.controls,javafx.fxml,javafx.graphics ,javafx.media,javafx.swing,javafx.web CurrencyChartFXMaven.jar
 
+Якщо є помилка java.nio.file.NoSuchFileException: C:\Users\artem\.DbSchema\logs\CassandraJdbcDriver.log.lck
+Виконати один раз .\create_log_directory_cassandra.bat
+
 Первинне налаштування:
 ---------------------------------------------------------------------------------
 - завантажити та встановити IntelliJ IDEA Community

@@ -55,10 +55,10 @@
          "IsEnable": false
          },
     "ConnectionMSSQL": {
-         "JDBCConnection_WA": "jdbc:sqlserver://localhost;databaseName=DatabaseTestDBDocker;integratedSecurity=true;encrypt=false;",
-         "JDBCConnection": "jdbc:sqlserver://localhost;databaseName=DatabaseTestDBDocker;user=sa;password=!Aa112233;encrypt=false;",
+         "JDBCConnection_WA": "jdbc:sqlserver://localhost;databaseName=DatabaseTestDBDocker;integratedSecurity=true;encrypt=true;",
+         "JDBCConnection": "jdbc:sqlserver://localhost;databaseName=DatabaseTestDBDocker;user=sa;password=!Aa112233;encrypt=true;",
          "DBInsertProcedure": "INSERT_KURS",
-         "Security_mode_WA": false,
+         "Security_mode_WA": true,
          "IsEnable": false
          },
     "ConnectionAzureSQL": {
@@ -98,6 +98,6 @@
          "JDBCConnection": "jdbc:cassandra://localhost:9042/testdb",
          "DBUser": "cassandra",
          "DBPassword": "!Aa112233",
-         "IsEnable": true
+         "IsEnable": false
          }
 }

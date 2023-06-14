@@ -1,32 +1,32 @@
 Manifest-Version: 1.0
 Main-Class: com.example.currencychartfxmaven.Main
-Class-Path: java-driver-query-builder-4.15.0.jar woodstox-core-6.4.0.jar
-  commons-logging-1.1.1.jar metrics-core-4.1.18.jar jasperreports-fonts-
- 6.20.4.jar sqlite-jdbc-3.41.2.1.jar netty-resolver-4.1.77.Final.jar jav
- afx-controls-20.0.1-win.jar checker-qual-3.31.0.jar caffeine-2.9.3.jar 
- javafx-base-20.0.1.jar jcl-over-slf4j-1.7.36.jar asm-9.2.jar javafx-bas
- e-20.0.1-win.jar javafx-graphics-20.0.1.jar jffi-1.3.9.jar jnr-posix-3.
- 1.15.jar jcommon-1.0.23.jar slf4j-api-2.0.7.jar reactive-streams-1.0.3.
- jar javafx-fxml-20.0.1-win.jar jnr-x86asm-1.0.2.jar gson-2.10.1.jar ojd
- bc11-23.2.0.0.jar mssql-jdbc-12.2.0.jre11.jar error_prone_annotations-2
- .10.0.jar openpdf-1.3.30.jaspersoft.2.jar jsr305-3.0.2.jar mongo-java-d
- river-3.12.13.jar java-driver-core-4.15.0.jar native-protocol-1.5.1.jar
-  protobuf-java-3.21.9.jar jaxb-api-2.3.1.jar jackson-databind-2.14.1.ja
- r java-driver-mapper-runtime-4.15.0.jar netty-common-4.1.77.Final.jar j
- avafx-controls-20.0.1.jar commons-digester-2.1.jar jna-platform-5.12.1.
- jar asm-tree-9.2.jar jnr-a64asm-1.0.0.jar java-driver-shaded-guava-25.1
- -jre-graal-sub-1.jar jnr-ffi-2.2.11.jar jaybird-5.0.1.java11.jar jna-5.
- 12.1.jar netty-transport-4.1.77.Final.jar netty-handler-4.1.77.Final.ja
- r commons-collections-3.2.2.jar javax.activation-api-1.2.0.jar commons-
- beanutils-1.9.4.jar jackson-dataformat-xml-2.14.1.jar jcip-annotations-
- 1.0-1.jar jasperreports-6.20.4.jar spotbugs-annotations-3.1.12.jar conf
- ig-1.4.1.jar slf4j-nop-2.0.7.jar mongodb_unityjdbc_free.jar jackson-cor
- e-2.14.1.jar mysql-connector-j-8.0.33.jar asm-commons-9.2.jar javafx-gr
- aphics-20.0.1-win.jar jffi-1.3.9-native.jar bson-4.9.1.jar commons-coll
- ections4-4.2.jar waffle-jna-3.2.0.jar asm-analysis-9.2.jar postgresql-4
- 2.6.0.jar mariadb-java-client-3.1.3.jar javafx-fxml-20.0.1.jar jdbc-4.5
- 0.10.jar jfreechart-1.0.19.jar HdrHistogram-2.1.12.jar netty-buffer-4.1
- .77.Final.jar jnr-constants-0.10.3.jar cassandrajdbc2.3.2.jar ecj-3.21.
- 0.jar stax2-api-4.2.1.jar asm-util-9.2.jar netty-codec-4.1.77.Final.jar
-  jackson-annotations-2.14.1.jar jcc-11.5.8.0.jar
+Class-Path: jnr-constants-0.10.3.jar jcommon-1.0.23.jar netty-common-4.1
+ .77.Final.jar slf4j-nop-2.0.7.jar jdbc-4.50.10.jar javafx-controls-20.0
+ .1-win.jar waffle-jna-3.2.0.jar HdrHistogram-2.1.12.jar javafx-fxml-20.
+ 0.1-win.jar javafx-base-20.0.1.jar mssql-jdbc-12.2.0.jre11.jar jsr305-3
+ .0.2.jar metrics-core-4.1.18.jar stax2-api-4.2.1.jar java-driver-mapper
+ -runtime-4.16.0.jar netty-buffer-4.1.77.Final.jar jcip-annotations-1.0-
+ 1.jar openpdf-1.3.30.jaspersoft.2.jar jfreechart-1.0.19.jar commons-bea
+ nutils-1.9.4.jar jna-platform-5.12.1.jar jaxb-api-2.3.1.jar protobuf-ja
+ va-3.21.9.jar checker-qual-3.31.0.jar netty-codec-4.1.77.Final.jar java
+ -driver-core-4.16.0.jar jnr-posix-3.1.15.jar asm-9.2.jar netty-handler-
+ 4.1.77.Final.jar reactive-streams-1.0.3.jar sqlite-jdbc-3.42.0.0.jar co
+ mmons-collections-3.2.2.jar asm-tree-9.2.jar gson-2.10.1.jar ecj-3.21.0
+ .jar javafx-controls-20.0.1.jar jaybird-5.0.2.java11.jar javafx-fxml-20
+ .0.1.jar jackson-core-2.14.1.jar netty-resolver-4.1.77.Final.jar mariad
+ b-java-client-3.1.4.jar jnr-a64asm-1.0.0.jar jasperreports-6.20.5.jar j
+ avafx-base-20.0.1-win.jar config-1.4.1.jar spotbugs-annotations-3.1.12.
+ jar cassandrajdbc2.3.2.jar ojdbc11-23.2.0.0.jar jcc-11.5.8.0.jar jackso
+ n-databind-2.14.1.jar error_prone_annotations-2.10.0.jar mongo-java-dri
+ ver-3.12.14.jar jna-5.12.1.jar netty-transport-4.1.77.Final.jar caffein
+ e-2.9.3.jar java-driver-shaded-guava-25.1-jre-graal-sub-1.jar jffi-1.3.
+ 9.jar asm-analysis-9.2.jar jackson-dataformat-xml-2.14.1.jar mysql-conn
+ ector-j-8.0.33.jar jasperreports-fonts-6.20.5.jar java-driver-query-bui
+ lder-4.16.0.jar javax.activation-api-1.2.0.jar commons-logging-1.1.1.ja
+ r jnr-x86asm-1.0.2.jar javafx-graphics-20.0.1-win.jar jcl-over-slf4j-1.
+ 7.36.jar commons-collections4-4.2.jar woodstox-core-6.4.0.jar asm-commo
+ ns-9.2.jar asm-util-9.2.jar commons-digester-2.1.jar native-protocol-1.
+ 5.1.jar jackson-annotations-2.14.1.jar javafx-graphics-20.0.1.jar postg
+ resql-42.6.0.jar jnr-ffi-2.2.11.jar jffi-1.3.9-native.jar mongodb_unity
+ jdbc_free.jar bson-4.9.1.jar slf4j-api-2.0.7.jar
 

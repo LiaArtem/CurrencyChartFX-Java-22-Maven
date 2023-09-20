@@ -1,6 +1,6 @@
-# CurrencyChartFX-Java-20-Maven
+# CurrencyChartFX-Java-21-Maven
 
-Maven JavaFX IntelliJ IDEA проект - Java 20, JavaFX, Maven, JasperReports, JDBC (Oracle, MS SQL, Azure SQL, PostgreSQL, MySQL, MariaDB, IBM DB2, IBM Informix, Firebird, SQLite, MongoDB, Amazon Aurora MySQL, Amazon Aurora PostgreSQL, Cassandra).
+Maven JavaFX IntelliJ IDEA проект - Java 21, JavaFX, Maven, JasperReports, JDBC (Oracle, MS SQL, Azure SQL, PostgreSQL, MySQL, MariaDB, IBM DB2, IBM Informix, Firebird, SQLite, MongoDB, Amazon Aurora MySQL, Amazon Aurora PostgreSQL, Cassandra).
 Створення графіків курсів НБУ по роках для спостереження за тенденціями змін.
 
 - Settings.json - поточний файл з налаштуваннями підключення до DB
@@ -10,7 +10,7 @@ Maven JavaFX IntelliJ IDEA проект - Java 20, JavaFX, Maven, JasperReports,
 Базы данных Docker можно взять из проекта #Docker-Win11 (https://github.com/LiaArtem/Docker-Win11)
 
 Запуск проекту для Windows (bat файл):
-..\jdk-20\bin\java" -jar --module-path "%cd%"\javafx-sdk\lib --add-modules=javafx.base,javafx.controls,javafx.fxml,javafx.graphics ,javafx.media,javafx.swing,javafx.web CurrencyChartFXMaven.jar
+..\jdk-21\bin\java" -jar --module-path "%cd%"\javafx-sdk\lib --add-modules=javafx.base,javafx.controls,javafx.fxml,javafx.graphics ,javafx.media,javafx.swing,javafx.web CurrencyChartFXMaven.jar
 
 Якщо є помилка java.nio.file.NoSuchFileException: C:\Users\artem\.DbSchema\logs\CassandraJdbcDriver.log.lck
 Виконати один раз .\create_log_directory_cassandra.bat
@@ -19,14 +19,14 @@ Maven JavaFX IntelliJ IDEA проект - Java 20, JavaFX, Maven, JasperReports,
 ---------------------------------------------------------------------------------
 - завантажити та встановити IntelliJ IDEA Community
 - завантажити та встановити Git
-- завантажити та встановити jdk-20_windows-x64_bin.exe (20.*)
-- завантажити та встановити SceneBuilder-19.0.0
+- завантажити та встановити jdk-21_windows-x64_bin.exe (20.*)
+- завантажити та встановити SceneBuilder-20.0.0
 - завантажити та встановити TIB_js-studiocomm_***_windows_x86_64.exe + запустити та закрити.
 - налаштувати Github в IntelliJ IDEA Community (Settings - Version Control - Github)
 
 Розгортання - налаштування:
 ---------------------------------------------------------------------------------
-- Завантажити та розпакувати javafx (20.*) в папку проекту: ./javafx-sdk/
+- Завантажити та розпакувати javafx (21.*) в папку проекту: ./javafx-sdk/
 
 Налаштування JavaFX:
 ---------------------------------------------------------------------------------
@@ -56,6 +56,8 @@ Maven JavaFX IntelliJ IDEA проект - Java 20, JavaFX, Maven, JasperReports,
     - решта під користувачем TEST_USER
     - !!! Перед завантаженням скриптів потрібно налаштувати обов'язково (експорт таблиць виконано в UTF-8).
     - !!! Налаштовуємо кодування серед Oracle SQL Developer - Tools -> Preferences -> Environment -> Encoding (міняємо на UTF-8).
+
+  JaspersoftWorkspace - JAR файл - https://www.oracle.com/cis/database/technologies/appdev/jdbc-downloads.html
 
 ---------------------------------------------------------------------------------
 - MS SQL
@@ -106,6 +108,8 @@ Maven JavaFX IntelliJ IDEA проект - Java 20, JavaFX, Maven, JasperReports,
 - MySQL
   - MySQL Workbench виконуємо скрипти з папки .\sql\mysql\
 
+  JaspersoftWorkspace - JAR файл - https://dev.mysql.com/downloads/connector/j/?os=26
+
 ---------------------------------------------------------------------------------
 - MariaDB
   - DBeaver виконуємо скрипти з папки. \sql\mariadb\
@@ -131,6 +135,8 @@ Maven JavaFX IntelliJ IDEA проект - Java 20, JavaFX, Maven, JasperReports,
     - Користувач - db2admin
     - пароль - 12345678
   - Виконуємо скрипти .\sql\IBM DB2\
+
+  JaspersoftWorkspace - JAR файл - https://www.ibm.com/support/pages/db2-jdbc-driver-versions-and-downloads
 
 ---------------------------------------------------------------------------------
 IBM Informix
@@ -161,11 +167,15 @@ IBM Informix
       - замінюємо текст із файлу .\sql\IBM Informix\4_CREATE PROCEDURE.spsql
       - тиснемо маленьку кнопку - Deploy the routine to the database server -> Готово
 
+  JaspersoftWorkspace - JAR файл - https://jar-download.com/artifacts/com.ibm.informix/informix-jdbc-complete/4.50.4.1/source-code
+
 ---------------------------------------------------------------------------------
 - Firebird
      - DBeaver виконуємо скрипти з папки .\sql\firebird\
      - якщо встановлений локально - підключення:
        jdbc:firebirdsql:localhost/3050:C:/Windows/System32/SAMPLEDATABASE.FDB?encoding=ISO8859_1
+
+     JaspersoftWorkspace - JAR файл - https://firebirdsql.org/en/jdbc-driver/
 
 ---------------------------------------------------------------------------------
 - MongoDB
@@ -182,11 +192,13 @@ IBM Informix
            - "MongoDBPort": 27017
            - "MongoDBDatabase": "testDB"
            - "MongoDBCollection": "Curs"
+     - JDBC драйвер - https://unityjdbc.com/mongojdbc/mongo_jdbc_free.php
 
 ---------------------------------------------------------------------------------
 - Cassandra
      - Структури створюються в Docker за замовчанням або через RazorSQL виконуємо скрипти з папки. \sql\cassandra\
      - Підключення: jdbc:cassandra://localhost:9042/testdb
+     - JDBC драйвер - https://dbschema.com/jdbc-driver/cassandra.html
 
 ---------------------------------------------------------------------------------
 Складання:

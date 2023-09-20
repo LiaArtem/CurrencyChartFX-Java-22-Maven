@@ -14,13 +14,13 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>20.0.2</version>
+            <version>21</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-fxml -->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>20.0.2</version>
+            <version>21</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
         <dependency>
@@ -38,19 +38,19 @@
         <dependency>
             <groupId>org.xerial</groupId>
             <artifactId>sqlite-jdbc</artifactId>
-            <version>3.42.0.0</version>
+            <version>3.43.0.0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
         <dependency>
             <groupId>net.sf.jasperreports</groupId>
             <artifactId>jasperreports</artifactId>
-            <version>6.20.5</version>
+            <version>6.20.6</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports-fonts -->
         <dependency>
             <groupId>net.sf.jasperreports</groupId>
             <artifactId>jasperreports-fonts</artifactId>
-            <version>6.20.5</version>
+            <version>6.20.6</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
         <dependency>
@@ -74,7 +74,7 @@
         <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
             <artifactId>mssql-jdbc</artifactId>
-            <version>12.4.0.jre11</version>
+            <version>12.4.1.jre11</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.ibm.db2/jcc -->
         <dependency>
@@ -110,13 +110,13 @@
         <dependency>
             <groupId>org.mariadb.jdbc</groupId>
             <artifactId>mariadb-java-client</artifactId>
-            <version>3.1.4</version>
+            <version>3.2.0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-nop -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-nop</artifactId>
-            <version>2.0.7</version>
+            <version>2.0.9</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.datastax.oss/java-driver-core -->
         <dependency>
@@ -148,9 +148,9 @@
         <dependency>
             <groupId>com.cassandrajdbc</groupId>
             <artifactId>cassandrajdbc</artifactId>
-            <version>2.3.2</version>
+            <version>2.3.3</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/cassandrajdbc2.3.2.jar</systemPath>
+            <systemPath>${project.basedir}/lib/cassandrajdbc.jar</systemPath>
         </dependency>
     </dependencies>
 

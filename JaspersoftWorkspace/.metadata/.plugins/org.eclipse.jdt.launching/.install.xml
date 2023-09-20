@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+    <entry loc="C:\Program Files\Jaspersoft\Jaspersoft Studio-6.20.6\features\jre.win32.win32.x86_64.feature_17.0.8.1_1\eclipsetemurin_jre" stamp="1695187682447"/>
     <entry loc="C:\Program Files\TIBCO\Jaspersoft Studio-6.20.0\features\jre.win32.win32.x86_64.feature_11.0.8\adoptopenjdk_jre" stamp="1673428665975"/>
     <entry loc="C:\Program Files\TIBCO\Jaspersoft Studio-6.18.1\features\jre.win32.win32.x86_64.feature_11.0.8\adoptopenjdk_jre" stamp="1643977922882"/>
     <entry loc="C:\Program Files\TIBCO\Jaspersoft Studio-6.19.0\features\jre.win32.win32.x86_64.feature_11.0.8\adoptopenjdk_jre" stamp="1649874286875"/>
+    <entry loc="C:\Program Files\Jaspersoft\Jaspersoft Studio-6.20.5\features\jre.win32.win32.x86_64.feature_11.0.18\adoptopenjdk_jre" stamp="1686745370426"/>
     <entry loc="C:\Program Files\TIBCO\Jaspersoft Studio-6.19.1\features\jre.win32.win32.x86_64.feature_11.0.8\adoptopenjdk_jre" stamp="1658840558814"/>
     <entry loc="C:\Program Files\Jaspersoft\Jaspersoft Studio-6.20.1\features\jre.win32.win32.x86_64.feature_11.0.18\adoptopenjdk_jre" stamp="1682186866811"/>
     <entry loc="C:\Program Files\Jaspersoft\Jaspersoft Studio-6.20.3\features\jre.win32.win32.x86_64.feature_11.0.18\adoptopenjdk_jre" stamp="1683309979664"/>

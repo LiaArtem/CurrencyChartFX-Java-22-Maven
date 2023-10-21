@@ -19,7 +19,7 @@ Maven JavaFX IntelliJ IDEA проект - Java 21, JavaFX, Maven, JasperReports,
 ---------------------------------------------------------------------------------
 - завантажити та встановити IntelliJ IDEA Community
 - завантажити та встановити Git
-- завантажити та встановити jdk-21_windows-x64_bin.exe (20.*)
+- завантажити та встановити jdk-21_windows-x64_bin.exe (21.*)
 - завантажити та встановити SceneBuilder-20.0.0
 - завантажити та встановити TIB_js-studiocomm_***_windows_x86_64.exe + запустити та закрити.
 - налаштувати Github в IntelliJ IDEA Community (Settings - Version Control - Github)

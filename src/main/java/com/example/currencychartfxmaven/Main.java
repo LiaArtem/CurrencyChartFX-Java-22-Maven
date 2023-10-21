@@ -5,9 +5,11 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
+import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
+import java.io.File;
 import java.util.Objects;
 import java.util.Optional;
 
@@ -19,9 +21,9 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-
         // график
         BorderPane root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("currencychart.fxml")));
+        primaryStage.getIcons().add(new Image("file:/" +  new File("").getAbsolutePath() + File.separator + "icon.png"));
         primaryStage.setTitle("Изменение курса валют");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();

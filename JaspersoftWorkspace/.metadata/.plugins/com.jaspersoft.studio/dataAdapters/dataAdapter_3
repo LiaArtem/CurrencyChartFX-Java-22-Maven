@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
   <name>Data Adapter MySQL</name>
-  <classpath>C:\Users\artem\JaspersoftWorkspace\MyReports\mysql-connector-j-8.1.0.jar</classpath>
+  <classpath>C:\Users\artem\JaspersoftWorkspace\MyReports\mysql-connector-j-8.3.0.jar</classpath>
   <driver>com.mysql.jdbc.Driver</driver>
   <username>test_user</username>
   <password>!Aa112233</password>

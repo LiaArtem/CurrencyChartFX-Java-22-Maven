@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
   <name>Data Adapter MSSQL</name>
-  <classpath>C:\Users\artem\JaspersoftWorkspace\MyReports\mssql-jdbc-12.4.0.jre11.jar</classpath>
+  <classpath>C:\Users\artem\JaspersoftWorkspace\MyReports\mssql-jdbc-12.4.2.jre11.jar</classpath>
   <driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver>
   <username>sa</username>
   <password>!Aa112233</password>

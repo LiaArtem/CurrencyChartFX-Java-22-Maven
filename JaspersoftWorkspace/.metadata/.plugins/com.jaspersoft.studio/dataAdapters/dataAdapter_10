@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
   <name>Data Adapter Firebird</name>
-  <classpath>C:\Users\artem\JaspersoftWorkspace\MyReports\jaybird-5.0.2.java11.jar</classpath>
+  <classpath>C:\Users\artem\JaspersoftWorkspace\MyReports\jaybird-5.0.3.java11.jar</classpath>
   <driver>org.firebirdsql.jdbc.FBDriver</driver>
   <username>SYSDBA</username>
   <password>!Aa112233</password>

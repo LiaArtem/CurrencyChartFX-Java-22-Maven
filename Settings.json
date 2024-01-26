@@ -4,7 +4,7 @@
          },
     "ConnectionSQLite": {
          "JDBCConnection": "jdbc:sqlite:CurrencyChartFXMaven.db",
-         "IsEnable": true
+         "IsEnable": false
          },
     "ConnectionMySQL": {
          "JDBCConnection": "jdbc:mysql://localhost:3306/test_schemas",
@@ -55,10 +55,10 @@
          "IsEnable": false
          },
     "ConnectionMSSQL": {
-         "JDBCConnection_WA": "jdbc:sqlserver://localhost;databaseName=DatabaseTestDBDocker;integratedSecurity=true;encrypt=true;",
-         "JDBCConnection": "jdbc:sqlserver://localhost;databaseName=DatabaseTestDBDocker;user=sa;password=!Aa112233;encrypt=true;",
+         "JDBCConnection_WA": "jdbc:sqlserver://localhost;databaseName=DatabaseTestDBDocker;integratedSecurity=true;encrypt=true;trustServerCertificate=true",
+         "JDBCConnection": "jdbc:sqlserver://localhost;databaseName=DatabaseTestDBDocker;user=sa;password=!Aa112233;encrypt=true;trustServerCertificate=true",
          "DBInsertProcedure": "INSERT_KURS",
-         "Security_mode_WA": true,
+         "Security_mode_WA": false,
          "IsEnable": false
          },
     "ConnectionAzureSQL": {
@@ -98,6 +98,6 @@
          "JDBCConnection": "jdbc:cassandra://localhost:9042/testdb",
          "DBUser": "cassandra",
          "DBPassword": "!Aa112233",
-         "IsEnable": false
+         "IsEnable": true
          }
 }

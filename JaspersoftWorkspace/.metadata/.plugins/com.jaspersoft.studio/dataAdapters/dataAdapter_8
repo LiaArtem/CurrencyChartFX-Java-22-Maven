@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
   <name>Data Adapter IBMDB2</name>
-  <classpath>C:\Users\artem\JaspersoftWorkspace\MyReports\jcc-11.5.7.0.jar</classpath>
+  <classpath>C:\Users\artem\JaspersoftWorkspace\MyReports\jcc-11.5.9.0.jar</classpath>
   <driver>com.ibm.db2.jcc.DB2Driver</driver>
   <username>DB2INST1</username>
   <password>!Aa112233</password>

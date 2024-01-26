@@ -20,8 +20,8 @@ Maven JavaFX IntelliJ IDEA проект - Java 21, JavaFX, Maven, JasperReports,
 - завантажити та встановити IntelliJ IDEA Community
 - завантажити та встановити Git
 - завантажити та встановити jdk-21_windows-x64_bin.exe (21.*)
-- завантажити та встановити SceneBuilder-20.0.0
-- завантажити та встановити TIB_js-studiocomm_***_windows_x86_64.exe + запустити та закрити.
+- завантажити та встановити SceneBuilder-21.0.0
+- завантажити та встановити Jaspersoft-Studio-CE_*.**.*_windows_x86_64.exe + запустити та закрити.
 - налаштувати Github в IntelliJ IDEA Community (Settings - Version Control - Github)
 
 Розгортання - налаштування:
@@ -36,7 +36,7 @@ Maven JavaFX IntelliJ IDEA проект - Java 21, JavaFX, Maven, JasperReports,
 
 Налаштування звітів:
 ---------------------------------------------------------------------------------
-- TIB_js-studiocomm_***_windows_x86_64.exe, запустити TIBCO Jaspersoft Studio
+- Jaspersoft-Studio-CE_*.**.*_windows_x86_64.exe, запустити TIBCO Jaspersoft Studio
 - Скопировать .\JaspersoftWorkspace\ в C:\Users\Admin\JaspersoftWorkspace
 - змінити налаштування Datasource, якщо необхідно
     - !!! Під час розробки звітів у Jaspersoft® Studio для MSSQL виникає помилка

@@ -1,33 +1,33 @@
 Manifest-Version: 1.0
 Main-Class: com.example.currencychartfxmaven.Main
-Class-Path: javafx-fxml-21.0.1-win.jar jcc-11.5.8.0.jar jdbc-4.50.10.jar
-  netty-resolver-4.1.94.Final.jar jcommon-1.0.23.jar netty-codec-4.1.94.
- Final.jar netty-transport-native-unix-common-4.1.94.Final.jar netty-tra
- nsport-4.1.94.Final.jar mongodb_unityjdbc_free.jar jfreechart-1.0.19.ja
- r jackson-annotations-2.14.1.jar jnr-ffi-2.2.11.jar asm-tree-9.2.jar jc
- ip-annotations-1.0-1.jar netty-buffer-4.1.94.Final.jar caffeine-2.9.3.j
- ar woodstox-core-6.4.0.jar commons-beanutils-1.9.4.jar mssql-jdbc-12.4.
- 1.jre11.jar checker-qual-3.31.0.jar waffle-jna-3.2.0.jar jnr-posix-3.1.
- 15.jar asm-analysis-9.2.jar jnr-x86asm-1.0.2.jar protobuf-java-3.21.9.j
- ar asm-9.2.jar jcl-over-slf4j-1.7.36.jar java-driver-core-4.17.0.jar co
- mmons-logging-1.1.1.jar netty-handler-4.1.94.Final.jar asm-util-9.2.jar
-  jackson-core-2.14.1.jar jnr-constants-0.10.3.jar jackson-databind-2.14
- .1.jar javafx-controls-21.0.1.jar gson-2.10.1.jar bson-4.11.0.jar javax
- .activation-api-1.2.0.jar java-driver-mapper-runtime-4.17.0.jar jaybird
- -5.0.2.java11.jar native-protocol-1.5.1.jar mariadb-java-client-3.2.0.j
- ar metrics-core-4.1.18.jar jasperreports-6.20.6.jar jna-5.12.1.jar jnr-
- a64asm-1.0.0.jar commons-collections4-4.2.jar slf4j-nop-2.0.9.jar javaf
- x-base-21.0.1-win.jar reactive-streams-1.0.3.jar jackson-dataformat-xml
- -2.14.1.jar jaxb-api-2.3.1.jar config-1.4.1.jar commons-collections-3.2
- .2.jar javafx-base-21.0.1.jar ojdbc11-23.3.0.23.09.jar java-driver-shad
- ed-guava-25.1-jre-graal-sub-1.jar sqlite-jdbc-3.43.2.1.jar java-driver-
- query-builder-4.17.0.jar spotbugs-annotations-3.1.12.jar cassandrajdbc.
- jar openpdf-1.3.30.jaspersoft.3.jar mysql-connector-j-8.1.0.jar jsr305-
- 3.0.2.jar commons-digester-2.1.jar mongo-java-driver-3.12.14.jar slf4j-
- api-1.7.36.jar javafx-fxml-21.0.1.jar stax2-api-4.2.1.jar jasperreports
- -fonts-6.20.6.jar HdrHistogram-2.1.12.jar javafx-controls-21.0.1-win.ja
- r jffi-1.3.9-native.jar javafx-graphics-21.0.1.jar javafx-graphics-21.0
- .1-win.jar postgresql-42.6.0.jar netty-common-4.1.94.Final.jar jffi-1.3
- .9.jar asm-commons-9.2.jar jna-platform-5.12.1.jar error_prone_annotati
- ons-2.10.0.jar ecj-3.21.0.jar
+Class-Path: javafx-fxml-21.0.2-win.jar java-driver-core-4.17.0.jar javax
+ .activation-api-1.2.0.jar jna-platform-5.13.0.jar jffi-1.3.9.jar openpd
+ f-1.3.30.jaspersoft.3.jar metrics-core-4.1.18.jar java-driver-query-bui
+ lder-4.17.0.jar netty-handler-4.1.94.Final.jar gson-2.10.1.jar netty-bu
+ ffer-4.1.94.Final.jar netty-transport-4.1.94.Final.jar jackson-core-2.1
+ 5.3.jar jasperreports-fonts-6.21.0.jar jcl-over-slf4j-2.0.7.jar commons
+ -logging-1.1.1.jar java-driver-mapper-runtime-4.17.0.jar waffle-jna-3.3
+ .0.jar bson-4.11.1.jar jnr-x86asm-1.0.2.jar jna-5.13.0.jar jaxb-api-2.4
+ .0-b180830.0359.jar asm-analysis-9.2.jar ojdbc11-23.3.0.23.09.jar jsr30
+ 5-3.0.2.jar woodstox-core-6.5.1.jar protobuf-java-3.25.1.jar mariadb-ja
+ va-client-3.3.2.jar postgresql-42.7.1.jar stax2-api-4.2.1.jar checker-q
+ ual-3.41.0.jar jdbc-4.50.10.1.jar jnr-ffi-2.2.11.jar jfreechart-1.0.19.
+ jar mssql-jdbc-12.4.2.jre11.jar netty-common-4.1.94.Final.jar cassandra
+ jdbc.jar commons-beanutils-1.9.4.jar slf4j-simple-2.0.11.jar jackson-da
+ taformat-xml-2.15.3.jar jcc-11.5.9.0.jar jffi-1.3.9-native.jar netty-tr
+ ansport-native-unix-common-4.1.94.Final.jar java-driver-shaded-guava-25
+ .1-jre-graal-sub-1.jar asm-tree-9.2.jar jackson-annotations-2.15.3.jar 
+ slf4j-api-2.0.11.jar jcommon-1.0.23.jar jnr-constants-0.10.3.jar reacti
+ ve-streams-1.0.3.jar jackson-databind-2.15.3.jar mysql-connector-j-8.3.
+ 0.jar config-1.4.1.jar native-protocol-1.5.1.jar ecj-3.21.0.jar sqlite-
+ jdbc-3.45.0.0.jar javafx-graphics-21.0.2.jar javafx-controls-21.0.2.jar
+  jaybird-5.0.3.java11.jar jasperreports-6.21.0.jar javafx-base-21.0.2-w
+ in.jar javafx-controls-21.0.2-win.jar commons-collections-3.2.2.jar mon
+ godb_unityjdbc_free.jar jnr-a64asm-1.0.0.jar javafx-graphics-21.0.2-win
+ .jar netty-resolver-4.1.94.Final.jar error_prone_annotations-2.10.0.jar
+  commons-digester-2.1.jar javafx-fxml-21.0.2.jar HdrHistogram-2.1.12.ja
+ r spotbugs-annotations-3.1.12.jar netty-codec-4.1.94.Final.jar asm-util
+ -9.2.jar javafx-base-21.0.2.jar mongo-java-driver-3.12.14.jar jnr-posix
+ -3.1.15.jar jcip-annotations-1.0-1.jar asm-commons-9.2.jar commons-coll
+ ections4-4.2.jar caffeine-2.9.3.jar asm-9.2.jar
 

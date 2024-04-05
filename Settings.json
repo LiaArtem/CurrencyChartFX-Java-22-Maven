@@ -98,6 +98,6 @@
          "JDBCConnection": "jdbc:cassandra://localhost:9042/testdb",
          "DBUser": "cassandra",
          "DBPassword": "!Aa112233",
-         "IsEnable": true
+         "IsEnable": false
          }
 }

@@ -1,6 +1,6 @@
-# CurrencyChartFX-Java-21-Maven
+# CurrencyChartFX-Java-22-Maven
 
-Maven JavaFX IntelliJ IDEA проект - Java 21, JavaFX, Maven, JasperReports, JDBC (Oracle, MS SQL, Azure SQL, PostgreSQL, MySQL, MariaDB, IBM DB2, IBM Informix, Firebird, SQLite, MongoDB, Amazon Aurora MySQL, Amazon Aurora PostgreSQL, Cassandra).
+Maven JavaFX IntelliJ IDEA проект - Java 22, JavaFX, Maven, JasperReports, JDBC (Oracle, MS SQL, Azure SQL, PostgreSQL, MySQL, MariaDB, IBM DB2, IBM Informix, Firebird, SQLite, MongoDB, Amazon Aurora MySQL, Amazon Aurora PostgreSQL, Cassandra).
 Створення графіків курсів НБУ по роках для спостереження за тенденціями змін.
 
 - Settings.json - поточний файл з налаштуваннями підключення до DB
@@ -10,7 +10,7 @@ Maven JavaFX IntelliJ IDEA проект - Java 21, JavaFX, Maven, JasperReports,
 Базы данных Docker можно взять из проекта #Docker-Win11 (https://github.com/LiaArtem/Docker-Win11)
 
 Запуск проекту для Windows (bat файл):
-..\jdk-21\bin\java" -jar --module-path "%cd%"\javafx-sdk\lib --add-modules=javafx.base,javafx.controls,javafx.fxml,javafx.graphics ,javafx.media,javafx.swing,javafx.web CurrencyChartFXMaven.jar
+..\jdk-22\bin\java" -jar --module-path "%cd%"\javafx-sdk\lib --add-modules=javafx.base,javafx.controls,javafx.fxml,javafx.graphics ,javafx.media,javafx.swing,javafx.web CurrencyChartFXMaven.jar
 
 Якщо є помилка java.nio.file.NoSuchFileException: C:\Users\artem\.DbSchema\logs\CassandraJdbcDriver.log.lck
 Виконати один раз .\create_log_directory_cassandra.bat
@@ -19,14 +19,14 @@ Maven JavaFX IntelliJ IDEA проект - Java 21, JavaFX, Maven, JasperReports,
 ---------------------------------------------------------------------------------
 - завантажити та встановити IntelliJ IDEA Community
 - завантажити та встановити Git
-- завантажити та встановити jdk-21_windows-x64_bin.exe (21.*)
+- завантажити та встановити jdk-22_windows-x64_bin.exe (22.*)
 - завантажити та встановити SceneBuilder-21.0.0
 - завантажити та встановити Jaspersoft-Studio-CE_*.**.*_windows_x86_64.exe + запустити та закрити.
 - налаштувати Github в IntelliJ IDEA Community (Settings - Version Control - Github)
 
 Розгортання - налаштування:
 ---------------------------------------------------------------------------------
-- Завантажити та розпакувати javafx (21.*) в папку проекту: ./javafx-sdk/
+- Завантажити та розпакувати javafx (22.*) в папку проекту: ./javafx-sdk/
 
 Налаштування JavaFX:
 ---------------------------------------------------------------------------------

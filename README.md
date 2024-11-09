@@ -1,6 +1,6 @@
-# CurrencyChartFX-Java-22-Maven
+# CurrencyChartFX-Java-23-Maven
 
-Maven JavaFX IntelliJ IDEA проект - Java 22, JavaFX, Maven, JasperReports, JDBC (Oracle, MS SQL, Azure SQL, PostgreSQL, MySQL, MariaDB, IBM DB2, IBM Informix, Firebird, SQLite, MongoDB, Amazon Aurora MySQL, Amazon Aurora PostgreSQL, Cassandra).
+Maven JavaFX IntelliJ IDEA проект - Java 23, JavaFX, Maven, JasperReports, JDBC (Oracle, MS SQL, Azure SQL, PostgreSQL, MySQL, MariaDB, IBM DB2, IBM Informix, Firebird, SQLite, MongoDB, Amazon Aurora MySQL, Amazon Aurora PostgreSQL, Cassandra).
 Створення графіків курсів НБУ по роках для спостереження за тенденціями змін.
 
 - Settings.json - поточний файл з налаштуваннями підключення до DB
@@ -19,14 +19,14 @@ Maven JavaFX IntelliJ IDEA проект - Java 22, JavaFX, Maven, JasperReports,
 ---------------------------------------------------------------------------------
 - завантажити та встановити IntelliJ IDEA Community
 - завантажити та встановити Git
-- завантажити та встановити jdk-22_windows-x64_bin.exe (22.*)
-- завантажити та встановити SceneBuilder-21.0.0
+- завантажити та встановити jdk-**_windows-x64_bin.exe (**.*)
+- завантажити та встановити SceneBuilder-**.*.*
 - завантажити та встановити Jaspersoft-Studio-CE_*.**.*_windows_x86_64.exe + запустити та закрити.
 - налаштувати Github в IntelliJ IDEA Community (Settings - Version Control - Github)
 
 Розгортання - налаштування:
 ---------------------------------------------------------------------------------
-- Завантажити та розпакувати javafx (22.*) в папку проекту: ./javafx-sdk/
+- Завантажити та розпакувати javafx (**.*) в папку проекту: ./javafx-sdk/
 
 Налаштування JavaFX:
 ---------------------------------------------------------------------------------
